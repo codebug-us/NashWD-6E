@@ -20,7 +20,8 @@
 
 1. Write a for-loop to print out the profit of each company. Are these profits still accurate? They probably aren't, but don't go back and change our objects! 
 
-1. Instead, what we need to do is make the `profit` property a function that calculates the value at the exact moment we need the information. Take a look at what is called an [anonymous function](https://www.w3schools.com/js/js_function_definition.asp) – read the section called **"Function Expressions"** to see how we can save our functions in a variable. Next, create an anonymous function called `calculateProfit` as shown below. This will be the function that dynamically calculates our profit (set the return value as 0 for now). ```
+1. Instead, what we need to do is make the `profit` property a function that calculates the value at the exact moment we need the information. Take a look at what is called an [anonymous function](https://www.w3schools.com/js/js_function_definition.asp) – read the section called **"Function Expressions"** to see how we can save our functions in a variable. Next, create an anonymous function called `calculateProfit` as shown below. This will be the function that dynamically calculates our profit (set the return value as 0 for now). 
+```
 	var calculateProfit = function() {
 		return 0;
 	};
