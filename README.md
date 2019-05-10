@@ -6,7 +6,7 @@
 
 1. Create a new variable called `companies` and set it equal to an array containing all the objects. 
 
-1. Write a for-loop that loops through the `companies` array console logging each company's ticker symbol. 
+1. Write a for-loop that loops through the `companies` array console logging each company's `ticker` symbol. 
 
 1. Write a for-loop that loops through the `companies` array console logging each company's share price. 
 
